@@ -1,0 +1,20 @@
+{
+  "name": "webformyself-webpack",
+  "version": "0.0.1",
+  "description": "webpack project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "webpack"
+  ],
+  "author": "Vasili Cassir",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
