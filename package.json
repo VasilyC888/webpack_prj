@@ -4,7 +4,8 @@
   "description": "webpack project",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development"
+    "dev": "webpack --mode development",
+    "dev:watch": "webpack --mode development --watch"
   },
   "keywords": [
     "javascript",
@@ -14,7 +15,14 @@
   "author": "Vasili Cassir",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "style-loader": "^3.3.1",
     "webpack": "^5.67.0",
     "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
   }
 }
